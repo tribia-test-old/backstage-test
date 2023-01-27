@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-test
+  description: backstage-test
 spec:
-  type: service
-  owner: user:guest
+  type: test
+  owner: manju
   lifecycle: experimental
